@@ -4,3 +4,10 @@
   font-weight: bold;
   background-color: goldenrod;
 }
+
+.logout {
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: red;
+}
