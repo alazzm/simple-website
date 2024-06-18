@@ -1,3 +1,12 @@
+h1 {
+  font-size: 2.3rem;
+  font-weight: 100;
+}
+
+button {
+  border: 2px solid red;
+}
+
 .login {
   color: whitesmoke;
   font-size: 18px;
