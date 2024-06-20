@@ -1,1 +1,104 @@
-/* form */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 15vh;
+  background-color: crimson;
+}
+
+header nav {
+  height: 100%;
+  padding: 2rem;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+}
+
+header nav ul li,
+a {
+  padding-right: 1rem;
+  text-decoration: none;
+  list-style: none;
+  color: whitesmoke;
+}
+
+header nav ul li a:hover {
+  color: #dd7f92;
+}
+/* header */
+
+/* main */
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main form {
+  width: 22vw;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: crimson;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.8rem;
+}
+
+main form input {
+  height: 1.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.btn {
+  margin-top: 0.8rem;
+  align-self: center;
+  width: 50%;
+  height: 2rem;
+  border-radius: 0.5rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(203, 245, 106);
+  color: crimson;
+}
+
+.signup {
+  border: none;
+  color: crimson;
+}
+
+.signin {
+  color: whitesmoke;
+  background-color: crimson;
+  border: 2px solid whitesmoke;
+}
